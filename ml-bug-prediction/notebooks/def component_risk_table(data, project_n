@@ -1,0 +1,47 @@
+def component_risk_table(data, project_name):
+    data['Created'] = pd.to_datetime(data['Created'], errors='coerce', utc=True).dt.tz_localize(None)
+    last_month = data['Created'].max().to_period('M')
+    last_6_months = pd.period_range(end=last_month, periods=6, freq='M').astype(str)
+    data['Created_Month'] = data['Created'].dt.to_period('M').astype(str)
+    data_last6 = data[data['Created_Month'].isin(last_6_months)]
+
+    component_risk_rank = data_last6['Components'].value_counts().rank(ascending=False, method='min').astype(int)
+    component_risk_map = component_risk_rank.to_dict()
+    max_rank = component_risk_rank.max()
+
+    def risk_score_details(components):
+        if pd.isna(components):
+            return None
+        comps = [c.strip() for c in components.split(',')]
+        scores = [component_risk_map.get(c, max_rank + 1) for c in comps]
+        if len(scores) > 1:
+            return f"{int(sum(scores)/len(scores))} ({' + '.join(str(s) for s in scores)})"
+        else:
+            return str(scores[0])
+
+    def explanation(components, risk_score):
+        if pd.isna(components):
+            return ""
+        comps = [c.strip() for c in components.split(',')]
+        scores = [component_risk_map.get(c, max_rank + 1) for c in comps]
+        if len(comps) > 1:
+            if all(s == max_rank for s in scores):
+                return f"This bug is related to multiple components, all of which are high-risk (score {max_rank}). Combined risk is high, but capped at {max_rank}."
+            else:
+                return f"This bug involves multiple components ({', '.join(comps)}), with risk scores: {', '.join(str(s) for s in scores)}."
+        else:
+            if scores[0] == max_rank:
+                return f'The "{comps[0]}" component has a very high history of bugs, making it high-risk.'
+            elif scores[0] <= 2:
+                return f'The "{comps[0]}" component has a low history of bugs, making it low-risk.'
+            else:
+                return f'The "{comps[0]}" component has a moderate risk based on recent bug frequency.'
+
+    summary_df = data[['key', 'Components']].copy()
+    summary_df['Risk Score'] = data['Components'].apply(risk_score_details)
+    summary_df['Explanation'] = [
+        explanation(row['Components'], row['Risk Score']) for _, row in summary_df.iterrows()
+    ]
+    summary_df = summary_df.rename(columns={'key': 'Bug ID'})
+    display(Markdown(f"### {project_name} - Component Risk Scoring Table"))
+    display(summary_df.head(10))

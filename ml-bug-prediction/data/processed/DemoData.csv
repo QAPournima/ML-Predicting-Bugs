@@ -1,0 +1,117 @@
+key,summary,status,Created,resolved,assignee,reporter,priority,severity,Components
+APP-5717,"As the next page of CallHistorys is loaded, existing CallHistorys jump up and down",To Do,2025-06-12T17:18:10.527+0200,,Rudy Frémont,Sanjay Ravichandran,Low,Medium,Call detail
+APP-5716,"If there are no matching CallHistorys after a filter, 'All done' is expected. Wrong wording",To Do,2025-06-12T17:13:37.988+0200,,Rudy Frémont,Sanjay Ravichandran,Medium,Medium,Call
+APP-5715,"When we tap on the missed call notification, we land on the call details but the tabBar is displayed and hide the player",To Do,2025-06-12T16:58:28.448+0200,,Rudy Frémont,Sanjay Ravichandran,Medium,High,Call-action
+APP-5694,Unwanted logout,To Do,2025-06-09T11:42:12.917+0200,,Sébastien,Rudy Frémont,High,High,Authentication
+APP-5682,"First inbound Messages message not appearing in APP app, but badge count updates",Done,2025-06-02T15:58:55.160+0200,2025-06-12T15:58:55.160+0201,Sébastien,Pournima TELE,Medium,Medium,Messages
+APP-5680,The SMS is not sent after the FIRST login,Done,2025-05-30T10:17:04.260+0200,2025-06-03T10:17:04.260+0200,Rudy Frémont,Sergio Olmos,Medium,Medium,Settings
+APP-5679,CallHistory engagement pagination not working if the first page fits the screen,Ready For Production,2025-05-29T22:44:04.063+0200,2025-05-29T22:44:04.063+0201,Rudy Frémont,Server Cimen,High,Medium,CallHistory
+APP-5675,"Black letters on dark mode when a call is ""on hold""",Done,2025-05-28T15:33:10.160+0200,2025-06-01T15:33:10.160+0200,Rudy Frémont,Sergio Olmos,Medium,Medium,Contact
+APP-5673,Picture still as draft after creating a branchout,Done,2025-05-28T13:38:29.028+0200,2025-06-01T15:33:10.160+0200,Sergio Olmos,Sergio Olmos,Medium,High,Number
+APP-5672,Reply WA from notification,Done,2025-05-28T13:02:39.538+0200,2025-06-11T15:33:10.160+0200,Sébastien Knopf,Sergio Olmos,High,Medium,Call-action 
+APP-5671,Attachment - Can't add a second media file and can't see media size,Done,2025-05-28T12:48:37.938+0200,2025-06-06T15:33:10.160+0200,Sébastien Knopf,Sergio Olmos,Critical,Critical,Contact
+APP-5670,The line switcher has no selected line after receiving a file,Done,2025-05-28T12:42:31.558+0200,2025-06-06T15:33:10.160+0200,Rudy Frémont,Sergio Olmos,Medium,Medium,Messages
+APP-5661,Empty refresh token when the user logout,Ready For Production,2025-05-26T17:35:11.144+0200,2025-06-06T15:33:10.160+0200,Rudy Frémont,Pablo Martinez Serrano,Medium,High,Messages
+APP-5660,Auto Scroll Triggered When Scrolling to Top in Free Text Messages Message View,Done,2025-05-22T18:05:31.508+0200,2025-06-06T15:33:10.160+0200,Sébastien Knopf,Pournima TELE,Medium,Medium,Messages
+APP-5659,WA - Errors bugs,Done,2025-05-22T16:50:52.616+0200,2025-06-06T15:33:10.160+0200,Sébastien Knopf,Sergio Olmos,High,High,Call
+APP-5658,3 dots menu in CallHistory blinks,Done,2025-05-22T16:40:02.300+0200,2025-06-06T15:33:10.160+0200,Paulo Henrique Lourenço,Sergio Olmos,Low,Low,Call-action
+APP-5656,Incorrect UI Element Displayed for Non-WA Capable Line in CallHistory Details Screen,Done,2025-05-22T12:30:30.357+0200,2025-06-06T15:33:10.160+0200,Sébastien Knopf,Pournima TELE,Medium,Medium,"CallHistory, Messages"
+APP-5651,Incorrect Channel Display for Messages Line on conv. view,inprogress,2025-05-20T14:57:24.023+0200,,Sébastien Knopf,Pournima TELE,Medium,Medium,CallHistory
+APP-5648,Spanish translation of voicemail drop on CallHistory list,inprogress,2025-05-20T12:31:42.299+0200,,Paulo Henrique Lourenço,Sergio Olmos,Medium,High,"CallHistory, Messages"
+APP-5646,Actions with anonymous calls in CallHistory view,Done,2025-05-20T12:01:01.596+0200,2025-05-20T12:01:01.596+0200,Sébastien Knopf,Sergio Olmos,Medium,Medium,"CallHistory, Messages"
+APP-5633,Remove line from dashboard,Done,2025-05-14T18:07:07.571+0200,2025-05-20T12:01:01.596+0200,Rudy Frémont,Sergio Olmos,High,High,Authentication
+APP-5632,Block WA in production,Done,2025-05-14T15:25:03.625+0200,2025-05-20T12:01:01.596+0200,Pournima TELE,Sébastien Knopf,Highest,Highest,Messages
+APP-5628,"Bulk actions : ""selected"" wording is not localized",Done,2025-05-09T19:46:31.126+0200,2025-05-20T12:01:01.596+0200,Rudy Frémont,Rudy Frémont,High,High,Call
+APP-5626,Timeouts in refresh token,To Do,2025-05-09T12:09:42.227+0200,,,Sergio Olmos,High,Medium,Call
+APP-5622,Request loop in the same minutes for getAircallWorkspaceCallHistorys endpoint,inprogress,2025-05-06T11:02:53.988+0200,,Rudy Frémont,Rudy Frémont,High,High,Conference
+APP-5594,Draft Message Stuck After Second Line Switch Error,inprogress,2025-04-16T15:40:03.198+0200,,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Call
+APP-5576,The tag/note is not shown in CallHistory view after added from longpress,Done,2025-04-10T17:22:12.500+0200,2025-04-15T17:22:12.500+0200,,Sergio Olmos,Medium,High,Call
+APP-5545,Unread badge on tab bar does not update correctly when CallHistory is closed in unread status,Done,2025-03-28T14:58:19.858+0100,2025-03-30T14:58:19.858+0100,Sébastien Knopf,Pournima TELE,High,Medium,CallHistory
+APP-5540,Investigate the searchTeammate crash,Done,2025-03-26T14:50:34.084+0100,2025-03-27T14:50:34.084+0100,Delphine Garcia,Delphine Garcia,Critical,Critical,People/Contacts
+APP-5539,The message about the incompatibility to send SMS is wrong,Done,2025-03-25T17:54:09.765+0100,2025-03-28T17:54:09.765+0100,Sébastien Knopf,Sergio Olmos,Low,Low,Messaging
+APP-5538,Events are not updated in real time in CallHistory detail (Appsync),Done,2025-03-25T17:47:34.602+0100,2025-03-28T17:54:09.765+0100,Delphine Garcia,Sergio Olmos,Medium,Medium,CallHistory
+APP-5534,Error should be shown when the user is busy,inprogress,2025-03-21T11:29:42.392+0100,,Paulo Henrique Lourenço,Sergio Olmos,Medium,Medium,In call
+APP-5532,Create a contact from CallHistory details,Done,2025-03-21T11:13:59.280+0100,2025-03-28T17:54:09.765+0101,Paulo Henrique Lourenço,Sergio Olmos,Medium,Medium,People/Contacts
+APP-5530,No translation to Spanish for Wrap-up time,inprogress,2025-05-20T14:54:05.637+0100,,Paulo Henrique Lourenço,Sergio Olmos,Medium,Medium,Translations
+APP-5529,Disable voicemail drop for conferences,Done,2025-03-20T13:09:20.057+0100,2025-03-28T17:54:09.765+0102,Paulo Henrique Lourenço,Sergio Olmos,Medium,Medium,Conference
+APP-5527,TabBar is visible after opening the app from notification,Done,2025-03-20T12:58:46.408+0100,2025-03-28T17:54:09.765+0103,Paulo Henrique Lourenço,Sergio Olmos,Medium,Medium,Notifications
+APP-5518,Player started on CallHistory details continue on call details,Done,2025-03-18T18:44:21.734+0100,2025-03-28T17:54:09.765+0104,Paulo Henrique Lourenço,Delphine Garcia,High,High,"CallHistory, Voicemail"
+APP-5510,Branch Out Not Created on Second Call from Different Line,Done,2025-03-13T13:12:39.068+0100,2025-03-18T17:54:09.765+0105,Sébastien Knopf,Pournima TELE,Medium,Medium,Call
+APP-5509,Memory issue after sending a message,To Do,2025-03-12T17:08:34.749+0100,,,Rudy Frémont,Medium,Medium,CallHistory
+APP-5508,UI Issues on Search with Two Characters,Done,2025-03-12T15:15:52.392+0100,2025-03-18T17:54:09.765+0106,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Call
+APP-5457,Missing timezone translations (working hours),Done,2025-03-10T09:58:49.871+0100,2025-03-18T17:54:09.765+0107,Paulo Henrique Lourenço,Paulo Henrique Lourenço,Medium,Medium,Settings
+APP-5454,Opening a message from a push notification does not indicate that the line is SMS capable,Done,2025-03-06T18:09:40.278+0100,2025-03-28T17:54:09.765+0108,Sébastien Knopf,Rudy Frémont,Medium,Medium,Call
+APP-5453,Unread count not correct after receiving message in the CallHistory detail,Done,2025-03-06T17:05:25.009+0100,2025-03-07T17:54:09.765+0109,Rudy Frémont,Rudy Frémont,Medium,Medium,Call
+APP-5452,Subscription about CallHistory update are not working after being in background,Done,2025-03-06T16:22:40.468+0100,2025-03-08T17:54:09.765+0110,Rudy Frémont,Rudy Frémont,High,High,CallHistory
+APP-5451,Not able to receive a voicemail for a missed call with voicemail.,Done,2025-03-06T12:45:37.711+0100,2025-03-19T17:54:09.765+0111,Sébastien Knopf,Pournima TELE,Medium,Medium,Call
+APP-5450,The “Call From” drawer closes automatically when clicking the call option in CallHistory details.,Done,2025-03-06T12:27:51.960+0100,2025-03-21T17:54:09.765+0112,Sébastien Knopf,Pournima TELE,Medium,Medium,CallHistory
+APP-5449,Call recording option is disable when answering an incoming call from the locked screen.,inprogress,2025-03-06T12:22:38.452+0100,,Sébastien Knopf,Pournima TELE,Medium,Medium,In call
+APP-5447,Analytics about insight card visibility is no more sent,inprogress,2025-03-05T20:31:13.915+0100,,Sébastien Knopf,Rudy Frémont,Medium,Medium,Tracking
+APP-5445,Error trying to send an sms,Done,2025-03-05T16:53:21.856+0100,2025-03-12T17:54:09.765+0113,,Sergio Olmos,Medium,Medium,CallHistory
+APP-5443,Continuos reloads in CallHistory view,Done,2025-03-05T15:30:05.648+0100,2025-03-11T17:54:09.765+0114,Sébastien Knopf,Sergio Olmos,Medium,Medium,Call
+APP-5442,Error found after search a string with less than 3 letters,Done,2025-03-05T15:17:09.774+0100,2025-03-18T17:54:09.765+0115,Paulo Henrique Lourenço,Sergio Olmos,Medium,Medium,Call
+APP-5441,Trim long line name on the CallHistory details screen,Done,2025-03-05T15:08:12.581+0100,2025-03-10T17:54:09.765+0116,Sébastien Knopf,Pournima TELE,Medium,Medium,CallHistory
+APP-5439,UI Glitch on Recent Contacts & Teammates Bar,inprogress,2025-03-04T15:32:50.511+0100,,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,People/Contacts
+APP-5438,Refresh data and subscriptions when changing category,Done,2025-03-04T14:16:58.733+0100,2025-03-04T14:16:58.733+0100,Paulo Henrique Lourenço,Sébastien Knopf,Critical,Critical,CallHistory
+APP-5436,I can't send a new SMS to a new number,Done,2025-03-03T15:02:16.784+0100,2025-03-03T15:02:16.784+0100,Sébastien Knopf,Sergio Olmos,Medium,Medium,Messaging
+APP-5435,Name and surname initials should be shown in Assigned to ...,Done,2025-03-03T10:14:21.279+0100,2025-03-03T10:14:21.279+0100,Sébastien Knopf,Sergio Olmos,Medium,Medium,CallHistory
+APP-5421,when the app launches for a few seconds we see the sign-in screen,Done,2025-02-20T17:16:55.322+0100,2025-02-20T17:16:55.322+0100,Sébastien Knopf,Pournima TELE,Medium,Medium,Notifications
+APP-5419,update Profile Picture,inprogress,2025-02-20T14:22:14.966+0100,,Sébastien Knopf,Pournima TELE,Medium,Medium,Settings
+APP-5409,Duplicate engagements when refreshing,inprogress,2025-02-18T15:21:16.722+0100,,Sébastien Knopf,Sébastien Knopf,Medium,Medium,CallHistory
+APP-5408,Pull to Refresh shouldn't use the skeleton loader,Done,2025-02-18T14:53:45.546+0100,2025-02-18T14:53:45.546+0100,Sébastien Knopf,James Webster,Low,Low,CallHistory
+APP-5407,No error message for graphQL error in Datadog,Done,2025-02-18T14:51:55.083+0100,2025-02-18T14:51:55.083+0100,Rudy Frémont,Rudy Frémont,Medium,Medium,Tech
+APP-5404,Data race issue with Appsync extension,Done,2025-02-18T13:05:14.448+0100,2025-02-18T13:05:14.448+0100,Rudy Frémont,Rudy Frémont,Medium,Medium,Tech
+APP-5402,Line Details Missing from User Accounts,Done,2025-02-18T11:34:08.218+0100,2025-02-18T11:34:08.218+0100,,Pournima TELE,Medium,Medium,Keypad
+APP-5397,Inbound Call Ringing Icon/status Not Displayed Correctly on CallHistorys list,Done,2025-02-17T11:40:31.250+0100,2025-02-21T11:40:31.250+0100,Pournima TELE,Pournima TELE,Medium,Medium,Call
+APP-5393,Inbound Calls (Answered & Missed) Not Added to Open CallHistory List,inprogress,2025-02-14T10:24:42.730+0100,,Pournima TELE,Pournima TELE,Medium,Medium,Call
+APP-5391,New CallHistory Screen Not Opening from Keypad,Done,2025-02-13T13:16:33.264+0100,2025-02-15T13:16:33.264+0100,Sébastien Knopf,Pournima TELE,Medium,Medium,"CallHistory, Keypad, Messaging"
+APP-5385,Notification Not Displayed When Line is Added or Removed,inprogress,2025-02-07T11:41:03.280+0100,,Sébastien Knopf,Pournima TELE,Medium,Medium,Notifications
+APP-5384,Filter Not Refreshing After agent Line is unassigned/removed,Done,2025-02-07T10:33:17.129+0100,2025-02-07T10:33:17.129+0100,Sébastien Knopf,Pournima TELE,Medium,Medium,Call
+APP-5382,Search field disappears when the user goes back to the CallHistory list,Done,2025-02-06T16:43:03.343+0100,2025-02-06T16:43:03.343+0100,Rudy Frémont,Rudy Frémont,Medium,Medium,Call
+APP-5377,"CallHistory Not Closing After Call Ends When ""Close CallHistory"" Is Selected when CallHistorys has unread CallHistorys",Done,2025-02-05T15:32:30.456+0100,2025-02-05T15:32:30.456+0100,,Pournima TELE,Medium,Medium,Call
+APP-5372,Page load spinner keeps spinning continuously when the agent has fewer CallHistory engagements,Done,2025-02-04T18:01:18.066+0100,2025-02-04T18:01:18.066+0100,Sébastien Knopf,Pournima TELE,Medium,Medium,Call
+APP-5370,Message card not updating with new messages in the CallHistory list,Done,2025-02-03T15:59:23.259+0100,2025-02-03T15:59:23.259+0100,Sébastien Knopf,Pournima TELE,Medium,Medium,Call
+APP-5369,Logs should be sent to Crashlytics,Done,2025-02-03T04:16:06.344+0100,2025-02-03T04:16:06.344+0100,Server Cimen,Server Cimen,Medium,Medium,Tech
+APP-5368,Limited contact authorization isn't handled,inprogress,2025-02-01T00:21:23.109+0100,,Server Cimen,Server Cimen,Low,Low,Permissions
+APP-5367,Keypad view bounces after canceling contact search,Done,2025-01-31T23:39:08.660+0100,2025-01-31T23:39:08.660+0100,Server Cimen,Server Cimen,Low,Low,Keypad
+APP-5366,Inbound SMS bubble shifts to outbound message position after sending a reply,Done,2025-01-31T18:02:18.283+0100,2025-01-31T18:02:18.283+0100,Sébastien Knopf,Pournima TELE,Medium,Medium,Messaging
+APP-5365,wordings modification Inbox to CallHistory,Done,2025-01-30T19:34:20.677+0100,2025-01-30T19:34:20.677+0100,Rudy Frémont,Pournima TELE,Medium,Medium,Call-action
+APP-5363,When an outbound message has an error the bubble has to be red,Done,2025-01-30T11:54:00.880+0100,2025-01-30T11:54:00.880+0100,Sébastien Knopf,Sébastien Knopf,Medium,Medium,CallHistory
+APP-5362,App Allows Sending SMS to an Incompatible Number,inprogress,2025-01-30T11:52:56.591+0100,,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Messaging
+APP-5361,Going from CallHistory list to CallHistory details (push) is not working properly (not animated),Done,2025-01-30T11:49:01.139+0100,2025-01-30T11:49:01.139+0100,Sébastien Knopf,Rudy Frémont,Medium,Medium,CallHistory
+APP-5360,Incorrect Call Information Displayed After Voicemail Drop,Done,2025-01-30T11:47:16.422+0100,2025-01-30T11:47:16.422+0100,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Call detail
+APP-5358,Voicemail drop icon and text on CallHistory list,Done,2025-01-30T11:33:07.402+0100,2025-01-30T11:33:07.402+0100,Sébastien Knopf,Pournima TELE,Medium,Medium,Call
+APP-5357,"When the message contains only media (with no text), the card is empty.",Done,2025-01-30T11:29:09.230+0100,2025-01-30T11:29:09.230+0100,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Call
+APP-5356,The icon color for Swipe left action is not as per the figma,Done,2025-01-30T11:25:22.651+0100,2025-01-30T11:25:22.651+0100,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Call
+APP-5355,CallHistory List Not Updating When a New Message Is Received,Done,2025-01-30T11:23:17.014+0100,2025-01-30T11:23:17.014+0100,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Call
+APP-5354, The line name is multiline. Should be truncated with three dots,inprogress,2025-01-30T11:20:12.693+0100,,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Call
+APP-5353,Unread message icon on CallHistory list,Done,2025-01-30T11:17:59.972+0100,2025-01-30T11:17:59.972+0100,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Call
+APP-5352,Issue adding tags,Done,2025-01-29T14:58:53.178+0100,2025-01-29T14:58:53.178+0100,Sébastien Knopf,Pournima TELE,Low,Low,Call detail
+APP-5351,Crash on call filter button on release build (staging),Done,2025-01-28T18:50:40.947+0100,2025-01-28T18:50:40.947+0100,Rudy Frémont,Rudy Frémont,High,High,CallFilter
+APP-5350,toast notification appears twice,Done,2025-01-28T17:23:35.315+0100,2025-01-28T17:23:35.315+0100,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Notifications
+APP-5237,Investigate UpdateCallPayload crashes,Done,2024-12-13T17:34:05.601+0100,2024-12-13T17:34:05.601+0100,Sergio Olmos,Delphine Garcia,Highest,Highest,People/Contacts
+APP-5226,Crash during UpdateCallPayload event from pusher,inprogress,2024-12-12T08:15:36.137+0100,,Sergio Olmos,Rudy Frémont,High,High,Call
+APP-5220,Attach a JPG as file is limited up to 600kb,Done,2024-12-11T10:09:01.187+0100,2024-12-11T10:09:01.187+0100,,Sergio Olmos,Medium,Medium,Messaging
+APP-5219,Calling from CallHistory view is not working with a Contact. (long company name?),Done,2024-12-11T09:45:23.292+0100,2024-12-11T09:45:23.292+0100,Sergio Olmos,Sergio Olmos,Medium,Medium,Messaging
+APP-5218," In Call Ended View - ""Correo de voz"" should be changed by ""Mensaje de voz""",inprogress,2024-12-11T09:42:45.129+0100,,Sébastien Knopf,Sergio Olmos,Low,Low,"Call ended, Translations"
+APP-5217,Alignment of the green phone button in Keypad,Done,2024-12-11T09:38:28.744+0100,2024-12-11T09:38:28.744+0100,Rudy Frémont,Sergio Olmos,Medium,Medium,Keypad
+APP-5216,Limit the characters on line name (keypad),Done,2024-12-11T09:35:24.874+0100,2024-12-11T09:35:24.874+0100,Rudy Frémont,Sergio Olmos,Medium,Medium,Keypad
+APP-5214,Wrong status during a warm transfer,Done,2024-12-09T19:03:21.778+0100,,Rudy Frémont,Rudy Frémont,High,High,Call
+APP-8208,Crash during a call when contacts change,inprogress,2024-12-05T18:06:10.198+0100,,Sergio Olmos,Rudy Frémont,High,High,Call
+APP-8209,Incorrect Call Type Displayed on Call Ended Screen and in History for Unsuccessful Conference Call,Done,2024-11-28T18:34:12.317+0100,,Delphine Garcia,Pournima TELE,Medium,Medium,"Call ended, History"
+APP-8210,CallHistory List Not Updating When a New Message Is Received,Done,2025-01-30T11:23:17.014+0100,2025-01-30T11:23:17.014+0100,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Call
+APP-8211, The line name is multiline. Should be truncated with three dots,inprogress,2025-01-30T11:20:12.693+0100,,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Call
+APP-8212,Unread message icon on CallHistory list,Done,2025-01-30T11:17:59.972+0100,2025-01-30T11:17:59.972+0100,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Call
+APP-8213,Issue adding tags,Done,2025-01-29T14:58:53.178+0100,2025-01-29T14:58:53.178+0100,Sébastien Knopf,Pournima TELE,Low,Low,Call detail
+APP-8214,Crash on call filter button on release build (staging),Done,2025-01-28T18:50:40.947+0100,2025-01-28T18:50:40.947+0100,Rudy Frémont,Rudy Frémont,High,High,CallFilter
+APP-8215,toast notification appears twice,Done,2025-01-28T17:23:35.315+0100,2025-01-28T17:23:35.315+0100,Paulo Henrique Lourenço,Pournima TELE,Medium,Medium,Notifications
+APP-8216,Investigate UpdateCallPayload crashes,Done,2024-12-13T17:34:05.601+0100,2024-12-13T17:34:05.601+0100,Sergio Olmos,Delphine Garcia,Highest,Highest,People/Contacts
+APP-8217,Crash during UpdateCallPayload event from pusher,inprogress,2024-12-12T08:15:36.137+0100,,Sergio Olmos,Rudy Frémont,High,High,Call
+APP-8218,Attach a JPG as file is limited up to 600kb,Done,2024-12-11T10:09:01.187+0100,2024-12-11T10:09:01.187+0100,,Sergio Olmos,Medium,Medium,Messaging
+APP-8219,Calling from CallHistory view is not working with a Contact. (long company name?),Done,2024-12-11T09:45:23.292+0100,2024-12-11T09:45:23.292+0100,Sergio Olmos,Sergio Olmos,Medium,Medium,Messaging
+APP-8220," In Call Ended View - ""Correo de voz"" should be changed by ""Mensaje de voz""",inprogress,2024-12-11T09:42:45.129+0100,,Sébastien Knopf,Sergio Olmos,Low,Low,"Call ended, Translations"
+APP-8221,Alignment of the green phone button in Keypad,Done,2024-12-11T09:38:28.744+0100,2024-12-11T09:38:28.744+0100,Rudy Frémont,Sergio Olmos,Medium,Medium,Keypad
+APP-8222,Limit the characters on line name (keypad),Done,2024-12-11T09:35:24.874+0100,2024-12-11T09:35:24.874+0100,Rudy Frémont,Sergio Olmos,Medium,Medium,Keypad
+APP-8223,Wrong status during a warm transfer,Done,2024-12-09T19:03:21.778+0100,,Rudy Frémont,Rudy Frémont,High,High,"Call, Conference"
+APP-8224,Crash during a call when contacts change,inprogress,2024-12-05T18:06:10.198+0100,,Sergio Olmos,Rudy Frémont,High,High,Call
+APP-8225,Incorrect Call Type Displayed on Call Ended Screen and in History for Unsuccessful Conference Call,Done,2024-11-28T18:34:12.317+0100,,Delphine Garcia,Pournima TELE,Medium,Medium,"Call ended, History"
